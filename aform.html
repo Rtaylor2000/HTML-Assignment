@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="en-us">
+    <head>
+        <title>Chapter one and two assignment</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/aformStyle.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <header>
+            <h1>A Form</h1>
+        </header>
+        <main>
+            <div id="form">
+                <h2>Form Section</h2>
+                <label for="email">Email</label>
+                <br />
+                <input type="text" id="email" name="email"/>
+                <br />
+                <label for="password">Password</label>
+                <br />
+                <input type="password" id="password" name="password"/>
+                <br />
+                <label for="language">Language</label>
+                <select name="language" id="language">
+                    <option value="english">English</option>
+                    <option value="german">German</option>
+                    <option value="japanese">Japanese</option>
+                </select>
+                <fieldset id="color">
+                    <legend id="lblColor">Color Choice</legend>
+                    <label for="red">Red</label>
+                    <input type="radio" id="red" name="red"/>
+                    <label for="blue">Blue</label>
+                    <input type="radio" id="blue" name="blue"/>
+                    <label for="yellow">Yellow</label>
+                    <input type="radio" id="yellow" name="yellow"/>
+                </fieldset>
+                <div id="buttons">
+                    <input type="submit"/>
+                    <input type="reset"/>
+                </div>
+            </div>
+            <h2>Other Section</h2>
+            <div id="otherSection">
+                <div id="pic">
+                    <img src="image/cyndaquil.png" alt="cyndaquil" 
+                         width="100" height="100">
+                     <!-- 
+                     https://bulbapedia.bulbagarden.net/wiki/Cyndaquil_
+                     (Pok%C3%A9mon)
+                     -->
+                </div>
+            </div>
+            <div id="link">
+                <p>This is a link to a more styled version of this page: 
+                    <a href="index.html">Better Page</a>
+                </p>
+            </div>
+        </main>
+        <footer>
+            <p>Copyright &copy; 2021 Ryan Taylor</p>
+	</footer>
+    </body>
+</html>
